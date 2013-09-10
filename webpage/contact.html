@@ -1,0 +1,73 @@
+﻿
+<!DOCTYPE html>
+<html lang="ja" >
+
+<head>
+<meta charset="UTF-8">
+<title>お問い合わせ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body id="contact">
+
+<header>
+<h1><a href="index.html"><img src="logo.jpg" alt="サイトのロゴ">HTML&CSSの勉強</a></h1>
+
+<nav>
+<ul>
+<li><a href="index.html">トップ</a></li>
+<li><a href="news.html">お知らせ</a></li>
+<li><a href="about.html">当サイトについて</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</nav>
+
+</header>
+
+<article>
+<h1>お問い合わせ</h1>
+
+<p>ご意見、ご感想などございましたら、以下の欄にご記入の上、送信してください。また、イベントに関する
+ご質問などもお気軽にお寄せください。</p>
+
+<form action="https://www.rescue.ne.jp/form/mail.cgi" method="POST">
+<input type="hidden" name="_uid"
+ value="os2VufUQiUd15s">
+<input type="hidden" name="_done"
+ value="index.html">
+<input type="hidden" name="_subject"
+ value="お問い合わせ">
+
+
+<p>
+<label>
+名前:<input type="text" name="username">
+</labele>
+</p>
+
+
+<p>
+<label>
+メールアドレス:<input type="email" name="usermail">
+</labele>
+</p>
+
+<p>
+<label>
+コメント:<textarea name="user comment" name="usermail"></textarea>
+</labele>
+</p>
+
+<p><input type="submit" value="送信" ></p>
+
+<small>Powered by <a href="http://www.rescue.ne.jp/" target="_blank">CGI RESCUE</a><sup>&reg;</sup></small>
+</form>
+
+</article>
+
+<footer>
+<small>Copyright &copy; こんしぇる,all rights reserved.</small>
+</footer>
+
+</body>
+</html>
